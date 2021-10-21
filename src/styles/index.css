@@ -50,15 +50,15 @@ main {
 }
 
 /* Action style */
-.action {
+.btn {
     background-color: #66BB6A;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 6px;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
-.action:hover {
+.btn:hover {
     background-color: #4CAF50;
 }
 
@@ -80,17 +80,6 @@ a {
     min-height: 100px;
 }
 
-a:nth-child(n) {
-    background-color: #EFEBE9;
-}
-
-a:nth-child(2n) {
-    background-color: #D7CCC8;
-}
-
-a:nth-child(3n) {
-    background-color: #BCAAA4;
-}
 
 /* Popup style */
 .popup .content {
@@ -126,7 +115,7 @@ figcaption {
     bottom: 0;
     right: 0;
     background-color: rgba(33, 33, 33, 0.5);
-    z-index: -1;
+    z-index: 10;
 }
 
 .popup.open {
